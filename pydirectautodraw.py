@@ -6,6 +6,11 @@ Created on Sat Dec 26 23:30:55 2020
 
 Desc: An automated line art printer
 
+Dependencies:
+    - openCV
+    - pyautogui and pydirectinput
+    - pillow
+
 Use: - Execute program in command line like so: python pydirectauthdraw.py image_name_here
         -Note: image must be placed in "photos" directory
      - Place cursor at top left corner of canvas of a program such as Microsoft Paint
@@ -16,6 +21,9 @@ Future features:
         4. Pausing
         5. Real-time resolution slider display
         7. Smooth and optimize with dragging and interpolation
+
+Sources:
+    - For pencil sketch image processing: https://www.askaswiss.com/2016/01/how-to-create-pencil-sketch-opencv-python.html
 """
 import sys
 import os
