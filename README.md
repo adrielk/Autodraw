@@ -6,4 +6,5 @@ An automatic lineart image printer that can be used with any paint software.
 - Run python script: python pydirectautodraw.py image_name_here
   - The image file must be in the "photos" directory
 
+## Original image vs Autodraw
 ![alt text](demo.PNG "Original image vs Autodraw")
